@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:backround-image="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel = "stylesheet"
+          type = "text/css"
+          href = "index.css" />
+
+    <style>
+        .pozadina {
+            background-image: url(bckgrnd.jpg);
+        }
+        .container{
+            background-color: aliceblue;
+        }
+    </style>
 </head>
-<body>
+<body class="pozadina">
 
 <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Marvel</a>
@@ -34,6 +46,70 @@
 
     </div>
 </nav>
+
+<div class="container ">
+    <div class="row">
+        <div class="col-sm">
+
+
+            <img src="av1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">THE AVENGERS</h5>
+                <p class="card-text">2012</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+
+            </ul>
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div><br>
+
+        </div><br>
+        <div class="col-sm">
+
+
+            <img src="av2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">AGE OF ULTRON</h5>
+                <p class="card-text">2015</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Dapibus ac facilisis in</li>
+
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+
+        </div>
+        <div class="col-sm">
+
+
+            <img src="av3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">INFINITY WARe</h5>
+                <p class="card-text">2018</p>
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Cras justo odio</li>
+
+            <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
